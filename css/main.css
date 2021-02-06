@@ -124,21 +124,15 @@ transition: all 1.5s;
  transform: translateX(140px);
 }
 
-.social ul li.twitter:hover{
-background-color: #55acee;
-}
 
 .social ul li.facebook:hover{
 background-color: #3b5999;
 }
 
-.social ul li.google-plus:hover{
+.social ul li.amazon:hover{
 background-color: #dd4b39;
 }
 
-.social ul li.instagram:hover{
-background-color: #e4405f;
-}
 
 .social ul li a {
   text-decoration: none;
