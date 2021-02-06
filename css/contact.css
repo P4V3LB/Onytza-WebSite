@@ -58,7 +58,7 @@ ul li.active a {
     color: #000;
 }
 
-.title{
+.title h1{
     position: absolute;
     top: 15%;
     left: 10%;
@@ -68,6 +68,8 @@ ul li.active a {
 .title h2{
     color: blue;
     position: absolute;
-    top: 150%;
-    left: 20%;
+    top: 15%;
+    left: 10%;
+    transform: translate(0%,0%);
+    
 }
