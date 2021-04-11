@@ -16,7 +16,7 @@ body {
   }
 
 header {
-    background-image: url(../images/Backgraund-contact.jpg);
+    background-image: url(../images/Secundar_2_1000px.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -77,18 +77,17 @@ ul li.active a {
 }
 
 .title h1{
-    color: rgb(255, 102, 0);
     position: absolute;
-    top: 29%;
-    left: 15%;
+    top: 15%;
+    left: 10%;
     transform: translate(-50%,-50%);
 }
 
 .title h2{
-    color: rgba(1, 6, 255, 0.603);
+    color: blue;
     position: absolute;
-    top: 30%;
-    left: 15%;
+    top: 15%;
+    left: 10%;
     transform: translate(0%,0%);
     
 }
