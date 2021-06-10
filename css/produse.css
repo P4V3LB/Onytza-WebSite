@@ -63,19 +63,13 @@ ul li.active a {
     margin: auto;
 }
 
-.btn {
-    border: 1px solid #fff;
-    padding: 10px 30px;
-    color: #fff;
-    text-decoration: none;
-    transition: 0.6s ease;
-}
-
-.btn:hover {
-    background-color: #808080;
-    color: #000;
-}
-
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+/*
 .title h1{
     position: absolute;
     top: 15%;
@@ -91,6 +85,32 @@ ul li.active a {
     transform: translate(0%,0%);
     
 }
+*/
+.title h1{
+    color: rgb(51, 255, 0);
+    
+  }
+  
+.button {
+    position: absolute;
+    top: 65%; 
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+.btn {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: #808080;
+    color: #000;
+}
 
 .social {
     position: fixed;
@@ -98,14 +118,14 @@ ul li.active a {
     transform: translateY(-50%);
     }
     
-    .social ul{
+.social ul{
     list-style: none;
     padding: 0;
     margin: 0;
     transform: translateX(-250px);
     }
     
-    .social ul li{
+.social ul li{
     display: block;
     margin: 5px;
     background-color: rgba(0,0,0,.5);
@@ -116,25 +136,25 @@ ul li.active a {
     transition: all 1.5s;
     }
     
-    .social ul li:hover{
+.social ul li:hover{
      transform: translateX(140px);
     }
     
     
-    .social ul li.facebook:hover{
+.social ul li.facebook:hover{
     background-color: #3b5999;
     }
     
-    .social ul li.amazon:hover{
+.social ul li.amazon:hover{
     background-color: #b83a00;
     }
     
     
-    .social ul li a {
+.social ul li a {
       text-decoration: none;
     }
     
-    .social ul li a i{
+.social ul li a i{
     text-align: center;
     margin-left: 14px;
     color: #000;
@@ -149,7 +169,7 @@ ul li.active a {
     vertical-align: middle;
     }
     
-    .social ul li:hover i{
+.social ul li:hover i{
     transform: rotate(360deg);
     transition: all 1s;
     }
